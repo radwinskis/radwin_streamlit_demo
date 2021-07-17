@@ -6,7 +6,7 @@ from datetime import datetime
 
 #os.environ["EARTHENGINE_TOKEN"] == st.secrets["EARTHENGINE_TOKEN"]
 
-with st.echo():
+
 import streamlit as st
 from streamlit_folium import folium_static
 import geemap.eefolium as geemap
