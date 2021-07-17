@@ -54,5 +54,6 @@ Map = geemap.Map(center=(40.8410, -113.4853), zoom=10)
 Map.addLayer(N_img, vis_params, 'N image', True, 1)
 Map.addLayer(S_img, vis_params, 'S image', True, 1)
 Map.addLayerControl()
+st.set_page_config(layout='wide')
 folium_static(Map, height=700, width=1200)
 
