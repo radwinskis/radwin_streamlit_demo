@@ -4,6 +4,8 @@ import geemap.eefolium as geemap
 import ee
 from datetime import datetime
 
+ee.Authenticate()
+
 #os.environ["EARTHENGINE_TOKEN"] == st.secrets["EARTHENGINE_TOKEN"]
 
 with st.echo():
