@@ -4,7 +4,7 @@ import geemap.eefolium as geemap
 import ee
 from datetime import datetime
 
-os.environ["EARTHENGINE_TOKEN"] == st.secrets["EARTHENGINE_TOKEN"]
+#os.environ["EARTHENGINE_TOKEN"] == st.secrets["EARTHENGINE_TOKEN"]
 
 with st.echo():
     import streamlit as st
