@@ -21,6 +21,7 @@ with st.echo():
     def dates(image):
       date = image.date().format("YYYY-MM-dd")
       return date
+    geemap.ee_initialize()
     
     current_date = datetime.today().strftime('%Y-%m-%d')
     start = ee.Date('2018-01-01')
