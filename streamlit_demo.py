@@ -1,24 +1,10 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[45]:
-
-
 import streamlit as st
 from streamlit_folium import folium_static
 import geemap.eefolium as geemap
 import ee
 from datetime import datetime
 
-
-# In[46]:
-
-
-# os.environ["EARTHENGINE_TOKEN"] == st.secrets["EARTHENGINE_TOKEN"]
-
-
-# In[47]:
-
+os.environ["EARTHENGINE_TOKEN"] == st.secrets["EARTHENGINE_TOKEN"]
 
 with st.echo():
     import streamlit as st
